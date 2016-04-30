@@ -5,7 +5,7 @@
 	<script src="http://www.quasimondo.com/StackBlurForCanvas/StackBlur.js" language="javascript"></script>
 </head>
 <body>
-	<video id="myVideo" src="larvar_20.mp4" type=video/mp4 controls ></video>
+	<video id="myVideo" src="larvar_20.mp4" type="video/mp4" controls ></video>
 	<canvas id="canvas-invert" width="640" height="360" ></canvas>
 	<canvas id="canvas-blur" width="640" height="360"></canvas>
 
@@ -30,7 +30,7 @@
 			var radius = 10;
 			var ctx2 = c2.getContext("2d");
 			ctx2.drawImage(vid, 0, 0, c2.width, c2.height);	
-			stackBlurCanvasRGBA( #canvas-blur, 0, 0, c2.width, c2.height, radius );
+			
 		}
 
 	</script>
