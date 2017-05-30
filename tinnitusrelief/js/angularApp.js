@@ -24,7 +24,7 @@ app.config(['$stateProvider', '$urlRouterProvider',
 /*--------------------------------------CONTROLLER--------------------------------------*/
 
 app.controller('MainController',['$scope', '$state', '$mdSidenav', function($scope, $state, $mdSidenav){
-	this.title = "Tinnitus Treatment";
+	this.title = "Tinnitus Relief";
 	this.goIntro = function() {
 		$state.go('intro');
 		$mdSidenav('left').close();
